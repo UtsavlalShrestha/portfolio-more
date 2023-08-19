@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    float: right;
+    margin-right: 40px;
+    /* border: 1px solid black; */
+    padding: 15px;
+    color: white;
+}
+nav a.logo{
+    float: left;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+nav{
+    width:1400px;
+    margin: 30px auto;
+    /* background-color: aqua;
+    overflow:hidden; */
+    
+}
+nav a:hover{
+    background-color: yellow;
+    color: navy;
+}
+nav a.logo:hover{
+    color: yellow;
+    background-color: black;
+}
+
+p{
+    display: inline-block;
+    font-size: 27px;
+}
+img{
+    height: 300px;
+    width: 310px;
+    border-radius: 90%;
+    border: 4px solid yellow;
+}
+img:hover{
+    border-color: white;
+}
+div{
+    width:690px;
+    margin: auto;
+    margin-top: 80px;
+}
+span{
+    color: yellow;
+    font-size: 40px;
+}
+span.batman{
+    color:yellow;
+    font-size: 40px;
+    font-style: italic;
+}
+div.bdy p{
+    position: relative;
+    top:-150px;
+    left: 40px;
+}
+div.bdy p.fr{
+    position: relative;
+    top: -120px;
+    left: -177px;
+    color: brown;
+    font-size: 15px;
+    color: white;
+}
+div.bdy a{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: -120px;
+    left: 357px;
+}
+div.bdy a:hover{
+    background-color: white;
+    color: blue;
+    font-weight: bolder;
+}
+i{
+    margin-right: 15px;
+    position: relative;
+    top:-70px;
+    left: 267px;
+}

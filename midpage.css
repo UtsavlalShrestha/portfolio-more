@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(https://images.pexels.com/photos/15250205/pexels-photo-15250205/free-photo-of-asphalt-road-across-the-mountain-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:navy;
+}
+.headr{
+    margin-top: 70px;
+    text-align: center;   
+}
+img{
+    padding-top: 5px;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+}
+.container{
+    width:1330px;
+    margin: 70px auto;
+}
+.one{
+    display: inline-block;
+    width: 410px;
+    border: 2px solid navy;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+    margin-right: 25px;
+    background-color:darkslategrey;
+    color:white;
+}
+.one:hover{
+    border:5px solid aqua;
+}
